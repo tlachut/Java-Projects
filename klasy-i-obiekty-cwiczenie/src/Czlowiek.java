@@ -2,7 +2,7 @@ public class Czlowiek {
     // Cechy
     int wiek;
     String imie;
-    float waga;
+    double waga;
 
     // Metody
     public void powiedzWiek() {
@@ -14,7 +14,7 @@ public class Czlowiek {
     }
 
     public void przeliterujSwojeImie() {
-        for (int i = 0; i >= imie.length(); i++) {
+        for (int i = 0; i < imie.length(); i++) {
             System.out.println(imie.charAt(i));
         }
     }
